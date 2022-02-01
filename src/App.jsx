@@ -12,7 +12,7 @@ function App() {
   };
 
   return (
-    <main>
+    <main className="App">
       <input type="text" placeholder="Title" />
       <input type="text" placeholder="Content" />
       <button onClick={postBlogPost}>Post</button>
