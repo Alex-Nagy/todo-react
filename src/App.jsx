@@ -16,7 +16,7 @@ function App() {
       <input type="text" placeholder="Title" />
       <input type="text" placeholder="Content" />
       <button onClick={postBlogPost}>Post</button>
-      <h1>Posztok</h1>
+      <h1>Posts</h1>
       {blogPosts.map((blogPost, i) => (
         <article key={i}>
           <h2>{blogPost.title}</h2>
