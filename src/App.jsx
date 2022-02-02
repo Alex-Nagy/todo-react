@@ -9,7 +9,7 @@ function App() {
   const postBlogPost = () => {
     setBlogPosts([
       ...blogPosts,
-      { title: title, content: content, date: new Date().toString()},
+      { title: title, content: content, date: new Date().toString().substring(0, 25)},
     ]);
     setTitle("");
     setContent("");
@@ -61,7 +61,7 @@ function App() {
           <button onClick={() => removeBlogPost(blogPost.date)}>Remove</button>
         </article>
       ))}
-      <button onClick={deleteBlogPosts}>Delete All</button>
+      <button onClick={deleteBlogPosts} className="del-btn">Delete All</button>
     </main>
   );
 }
