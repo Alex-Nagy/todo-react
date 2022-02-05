@@ -1,4 +1,4 @@
-Órai közös blog posztos todo app with react
+Órai közös blog posztos todo app with react - Finished
 
 # Getting Started with Create React App
 
