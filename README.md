@@ -1,4 +1,4 @@
-Órai közös blog posztos todo app with react - Finished
+My todo app with react - Finished
 
 - React.js
 - http
