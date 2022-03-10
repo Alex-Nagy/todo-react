@@ -3,7 +3,6 @@ My todo app with react - Finished
 - React.js
 - http
 - Node.js
-- Axios
 
 # Getting Started with Create React App
 
