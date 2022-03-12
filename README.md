@@ -1,7 +1,7 @@
 My todo app with react - Finished
 
 - React.js
-- http (GET, POST)
+- http (GET, POST, DELETE)
 - Node.js
 
 # Getting Started with Create React App
